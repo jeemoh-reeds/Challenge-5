@@ -620,7 +620,7 @@ body {
     color: #0ac6e5;
   }
 
-  .sub-menus, .sub-menus_2 .relative {
+  .sub-menus, .sub-menus_2 .sub-menu_2 {
     position: relative;
   }
 
@@ -652,21 +652,18 @@ body {
     background-color: #50c6c6;
     color: #ffffff;
   }
-
   
-
-  
-.sub-menus_2:hover ~ .sub-menu_2 {
+  .sub-menus:hover .sub-menu .sub-menus_2:hover ~ .sub-menu_2 {
     display: flex;
     flex-direction: column;
     position: absolute;
-    top: 0;
+    top: 40px;
     left: 190px;
     width: 190px;
     background-color: rgba(3, 177, 252, 0.4);
   }
   
-  .sub-menus_2:hover ~ .sub-menu_2 a {
+  .sub-menus:hover .sub-menu .sub-menus_2:hover ~ .sub-menu_2 a {
     display: block;
     text-decoration: none;
     text-align: left;
@@ -677,16 +674,10 @@ body {
     border-bottom: 2px solid rgba(3, 177, 252, 0.4);
   }
   
-  .sub-menus_2:hover ~ .sub-menu_2:hover a:hover {
+  .sub-menus:hover .sub-menu .sub-menus_2:hover ~ .sub-menu_2:hover a:hover {
     background-color: #50c6c6;
     color: #ffffff;
   }
-  
-
-
-
-
-
 
   .section-1-info {
     margin: 160px 0;
